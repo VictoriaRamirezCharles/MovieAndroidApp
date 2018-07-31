@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="letraButton">20sp</dimen>
+    <dimen name="posicionImagen">100dp</dimen>
+    <dimen name="letraTV">25sp</dimen>
+    <dimen name="letraButton2">18sp</dimen>
+</resources>

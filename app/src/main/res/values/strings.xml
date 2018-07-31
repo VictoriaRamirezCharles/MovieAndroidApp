@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pelicula</string>
+    <string name="ver">Ver</string>
+    <string name="catalogo">Catalogo de  Peliculas Mas Vistas 2017</string>
+    <string name="favorito">Favoritos</string>
+    <string name="accion">Deshacer</string>
+    <string name="VerT">Ver Trailer</string>
+</resources>

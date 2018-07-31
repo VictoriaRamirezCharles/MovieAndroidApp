@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".DetallePelicula">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:id="@+id/imgDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher_round"
+        />
+
+    <TextView
+        android:id="@+id/tituloDetalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Pelicula"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+android:layout_centerInParent="true"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"
+
+        android:src="@drawable/estrellita"
+        android:layout_alignParentRight="true" />
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:theme="@style/raisedButton"
+        android:text="@string/VerT"
+  android:layout_below="@id/tituloDetalles"
+        android:textSize="@dimen/letraButton2"
+        android:id="@+id/apb2"
+
+        >
+    </android.support.v7.widget.AppCompatButton>
+
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
